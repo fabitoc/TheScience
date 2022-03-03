@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de un sitio de recista de ciencia">
+    <!--prefethc-->
+
+    <link rel="--prefethc--" href="nosotros.html" as="document">
+
+
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300&family=Redressed&display=swap" as="font" crossorigin="crossorigin">
+
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300&family=Redressed&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@300&family=Redressed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>the ciense</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html">
+                    <h1 class="barra-texto ">The<span class="barra-texto__span ">Universal</span><span class="barra-texto">Origins</span>
+                    </h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="escuelas.html" class="navegacion__enlace">Escuelas</a>
+                    <a href="contactenos.html" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="presentacion">Nuestra escuela del pensamiento contemporanea</h2>
+            <p class="descripcion">aprende de los expertos y de las dietas del mundo moderno</p>
+        </div>
+
+    </header>
+    <div class="contenedor contenido-principal">
+        <main class="contenedor"> 
+            <h2 class="titulo-principal">Nuestro blog</h2>
+            <article class="articulo">
+                <div class="entrada-imagen">
+                    <picture>
+                        <source     srcset="img/reno.webp" type="image.webp">
+                        <img loading="lazy" class="entrada" src="img/reno.jpg" alt="imagen-reno"> 
+                        </picture>
+                </div>
+                <div class="entrada-texto">
+                    <h2 class="entrata-texto__titulo">The Natural Ciense </h2>
+                    <p class="entrada-texto__contenido">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione iusto nostrum cum doloremque placeat quidem voluptates dolore quibusdam cumque corporis quod neque quisquam, exercitationem obcaecati veniam rem minima tempora saepe.</p>
+                    <a class="button boton-edit"href="#">leer articulo</a>
+                </div>
+               
+            </article> 
+            <!--articulo-->
+
+            <article class="articulo">
+                <div class="entrada-imagen">
+                    <!-- loading="lazy" es importante cuando usamos muchas imagenes , y no las cargue el navegador de una para que no se demore en cargar la pagina -->
+                    <img loading="lazy" class="entrada" src="img/reno.jpg" alt="imagen-reno">
+                </div>
+                <div class="entrada-texto">
+                    <h2 class="entrata-texto__titulo">The Natural Ciense </h2>
+                    <p class="entrada-texto__contenido">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione iusto nostrum cum doloremque placeat quidem voluptates dolore quibusdam cumque corporis quod neque quisquam, exercitationem obcaecati veniam rem minima tempora saepe.</p>
+                    <a class="button boton-edit"href="#">leer articulo</a>
+                </div>
+               
+            </article> 
+            <!--articulo-->
+
+            <article class="articulo">
+                <div class="entrada-imagen">
+                    <img loading="lazy" class="entrada" src="img/reno.jpg" alt="imagen-reno">
+                </div>
+                <div class="entrada-texto">
+                    <h2 class="entrata-texto__titulo">The Natural Ciense </h2>
+                    <p class="entrada-texto__contenido">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione iusto nostrum cum doloremque </p>
+                    <a class="button boton-edit"href="#">Leer articulo</a>
+                </div>
+               
+            </article> 
+            <!--articulo-->
+
+            
+        </main>
+        <aside class="lateral">
+            
+            <h2 class="titulo-widget "> Nuestros servicios</h2>
+
+            <ul class="cursos no-padding">
+                <li class="widget">
+                    <h3 class=" no-margin">Especialidad en medicina funcional </h3>
+                    <p class="widget-precio">Precio: <span class="widget-precio__info">
+                        $500.00</span>
+                    </p>
+
+                    <p class="widget-precio">Cupo: <span class="widget-precio__info">
+                        20</span>
+                    </p>
+                    <a class="button boton-edit__sec"href="#">Suscribirse</a>
+                </li>
+
+                <li class="widget">
+                    <h3 class="no-margin"> Ananomia celular del cuepo humano </h3>
+                    <p class="widget-precio">Precio: <span class="widget-precio__info">
+                        $500.00</span>
+                    </p>
+
+                    <p class="widget-precio">Cupo: <span class="widget-precio__info">
+                        20</span>
+                    </p>
+                    <a class="button boton-edit__sec"href="#">Suscribirse</a>
+                </li>
+
+                <li class="widget">
+                    <h3 class="no-margin"> Ananomia celular del cuepo humano </h3>
+                    <p class="widget-precio">Precio: <span class="widget-precio__info">
+                        $500.00</span>
+                    </p>
+
+                    <p class="widget-precio">Cupo: <span class="widget-precio__info">
+                        20</span>
+                    </p>
+                    <a class="button boton-edit__sec"href="#">Suscribirse</a>
+                </li>
+
+            </ul>
+
+
+        </aside>
+    </div>
+
+    <footer>
+        <div class="contenedor-header">
+            <div class="barra">
+                <a href="#">
+                    <h1 class="barra-texto ">The<span class="barra-texto__span ">Universal</span><span class="barra-texto">Origins</span>
+                    </h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="#" class="navegacion__enlace">Nosotros</a>
+                    <a href="#" class="navegacion__enlace">Escuelas</a>
+                    <a href="#" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+    </footer>
+
+    <script>src="js/modernizr.js"</script>
+</body>
+</html>
